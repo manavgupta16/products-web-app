@@ -1,7 +1,7 @@
 {
   "name": "products-web-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "NFC cards products listing app built with Next.js and TypeScript",
   "homepage": "https://github.com/manavgupta16/products-web-app#readme",
   "bugs": {
     "url": "https://github.com/manavgupta16/products-web-app/issues"
@@ -12,12 +12,26 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
   }
 }
